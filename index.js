@@ -22,8 +22,8 @@ client.on("ready", () => {
   console.log(`Guilds : ${client.guilds.cache.size}`);
   console.log(`Users : ${client.users.cache.size}`);
   console.log(`Channels : ${client.channels.cache.size}`);
-  client.user.setActivity(`${prefix}help`, {
-    type: "PLAYING"
+  client.user.setActivity(`REDONE & KING`, {
+    type: "STREAMING"
   });
 });
 client.on("message", message =>{
